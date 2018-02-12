@@ -105,6 +105,10 @@ Each initial output gave multiple possible bounding boxes. The areas that are su
 
 In order to strengthen this guess, I took all of the hot boxes from the past frames and compared the current box to those. If the previous frames had a box in the same place, it's likely that the box found on this frame is valid.
 
+You can find the result video in the folder:
+
+project_video.mp4_Vehicel_Detetected.mp4
+
 ### Discussion
 
 #### Where will this pipeline likely fail?
