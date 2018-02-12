@@ -14,14 +14,12 @@ OpenCV
 
 The dataset used for training the classifier consists of two external datasets: Udacity's dataset and the Autti dataset.
 
-Download the Autti dataset from [here](https://github.com/udacity/self-driving-car/tree/master/annotations) and extract into dataset/autti
-
 Download the Udacity vehicle dataset from [here](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/vehicles.zip) and extract it into dataset/vehicles
 
 Download the Udacity vehicle dataset from [here](https://s3.amazonaws.com/udacity-sdc/Vehicle_Tracking/non-vehicles.zip) and extract it into dataset/non-vehicles
 
 Then simply open the Jupyter notebook
-`jupyter notebook VehicleDetection.ipynb`
+`jupyter notebook vehicle-detection-project5.ipynb`
 and follow along!
 
 ## Ruberic points
