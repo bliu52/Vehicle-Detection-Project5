@@ -38,11 +38,10 @@ The code for this is found inside of `get_hog_features` and `extract_features`
 
 I tried a few different parameters, so here's my explanantion for each:
 
-Color space: I tried 5 possibilities for color space: Gray, Saturation, and each of R,G, and B
-I also played around with Hue and Lightness, neither of which I found to give much important information.
-I ended up finding that using greyscale worked best for this.
+Color space: I tried 6 possibilities for color space: HSV, LUV, HLS, YUV, YCrcb and RGB
+I ended up finding that using YCrcb worked best for this.
 
-Orientations: I tried the default 8 and that tended to work well, and I found no reason to change it.
+Orientations: I tried the default 32 and that tended to work well, and I found no reason to change it.
 
 Pixels per cell: I wanted this to be relatively high because I thought having less blocks would make the gradients stronger, therefore making the information of that particular block better and making lines stand out. I decided on 16.
 
