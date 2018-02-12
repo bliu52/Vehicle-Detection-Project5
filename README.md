@@ -107,7 +107,7 @@ In order to strengthen this guess, I took all of the hot boxes from the past fra
 
 You can find the result video in the folder:
 
-project_video.mp4_Vehicel_Detetected.mp4
+Vehicel_Detetected_project_video.mp4
 
 ### Discussion
 
